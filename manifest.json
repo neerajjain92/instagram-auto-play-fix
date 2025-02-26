@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Instagram Auto-Play Fix",
+    "version": "1.0.0",
+    "description": "Keep Instagram videos playing when switching tabs or windows",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [{
+      "matches": ["*://*.instagram.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }],
+    "web_accessible_resources": [{
+      "resources": ["inject.js"],
+      "matches": ["*://*.instagram.com/*"]
+    }],
+    "permissions": ["scripting", "storage"],
+    "host_permissions": ["*://*.instagram.com/*"],
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+  
