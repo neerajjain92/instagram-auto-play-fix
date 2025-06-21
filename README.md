@@ -1,5 +1,10 @@
 # Instagram Auto Play Fix
 
+## Our Happy Users :) 
+
+<img width="1353" alt="image" src="https://github.com/user-attachments/assets/1de71bea-368e-4ebd-a9ad-f04d449f7a35" />
+
+
 ## Overview
 Keep Instagram videos playing when switching tabs or windows.
 
